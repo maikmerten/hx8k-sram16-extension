@@ -9,7 +9,7 @@ A PCB with 4 Mbit of SRAM,  SPI-Flash, two LEDs, a button, SPI-connectors, and a
 
 | Component | Description | Qty. |
 |-----------|-------------|------|
-| U1 | 4 MBit SRAM chip, 256Kx16, e.g. AS7C34098A, 10ns recommended, TSOP-II 44 package | 1 |
+| U1 | 4 MBit SRAM chip, 256Kx16, e.g. AS7C34098A, 10ns or faster recommended, TSOP-II 44 package | 1 |
 | U2 | SPI-Flash, e.g. W25Q32JV, 8-Pin SOIC package| 1 |
 | C1, C2, C3 | 100nF ceramic capacitor, 0805 package | 3 |
 | D1, D2 | SMD LEDs, red, 0805 package | 2 |
