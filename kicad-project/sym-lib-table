@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name additional-shield-parts)(type Legacy)(uri ${KIPRJMOD}/additional-shield-parts.lib)(options "")(descr ""))
+)
