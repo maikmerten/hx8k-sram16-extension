@@ -15,7 +15,7 @@ A PCB with 4 Mbit of SRAM,  SPI-Flash, two LEDs, a button, SPI-connectors, and a
 | D1, D2 | SMD LEDs, red, 0805 package | 2 |
 | R1, R2, R3, R4, R5, R6, R7, R8 | resistors, 1K, 0805 package | 8 |
 | R9 | optional pull-up for SW1, anything between 10K and 50K should be fine, 0805 package | 1 |
-| R10, R11 | resistors for the LEDs, 510 Ohm, 0805 package (**important:** populate before J3 and J3, as R10 and R11 will become inaccessible) | 2 |
+| R10, R11 | resistors for the LEDs, 510 Ohm, 0805 package (**important:** populate before J3 and J4, as R10 and R11 will become inaccessible) | 2 |
 | SW1 | 6x6 mm push button, THT | 1 |
 | J1, J2 | 1x6 female header, 2.54 mm pin spacing | 2 |
 | J3, J4 | 2x20 male pin headers, 2.54 mm pin spacing (**important:** solder on top side, so pins head downwards towards FPGA board)| 2 |
