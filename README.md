@@ -1,6 +1,10 @@
 # hx8k-sram16-extension
 A PCB with 4 Mbit of SRAM,  SPI-Flash, two LEDs, a button, SPI-connectors, and a single-row pmod-compatible connector for the Lattice HX8K Breakout Board. Connects to the headers **J3** and **J4** on the Lattice HX8K Breakout Board.
 
+## WARNING: unstable
+
+The board in its current state is difficult to operate in a stable manner. While signals to the SRAM-chip appear to be of decent quality, I've yet to achieve stable operation over extended periods of operation. This might be a matter of my SRAM-controller design within the FPGA, or an issue with the board design available here. Please be aware of this before considering deploying this design in your projects.
+
 
 ![top side of the board](img/extension-pcb.png?raw=true "top side")
 
